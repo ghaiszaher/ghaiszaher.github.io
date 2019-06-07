@@ -34,8 +34,12 @@ body {
     color: black;
 }
 
-.fab:hover, .fas:hover {
+.fab:hover, .fas:hover, .far:hover, .email a:hover {
     color: #0353ff;
+}
+
+.fa-center {
+    vertical-align: middle;
 }
 
 .main-content {
@@ -43,9 +47,13 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
-    height: calc(100vh - 100px);
+    min-height: calc(100vh - 50px);
 }
 
-#myImage{
+#myImage {
     max-width: 270px;
+}
+
+.email a{
+    color: black;
 }
