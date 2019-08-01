@@ -5,5 +5,5 @@
 	RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
 	RewriteRule ^ - [L]
 
-    RewriteRule ^ /index.html
+	RewriteRule ^ /stepslb-admin-preview/index.html
 </IfModule>
