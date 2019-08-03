@@ -58,3 +58,7 @@ body {
 .email a{
     color: black;
 }
+
+.fa-stack-overflow{
+    color: #f48024;
+}
